@@ -12,19 +12,7 @@
             "source": [
                 "const data = ['ant','bird','cat','dog','egg']"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -38,20 +26,7 @@
             "source": [
                 "let new_data = []\r\nfor(let i=0;i<data.length;i++){\r\n    new_data.push(data[i][0].toUpperCase() + data[i].slice(1))\r\n}\r\nconsole.log(new_data)"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[ 'Ant', 'Bird', 'Cat', 'Dog', 'Egg' ]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -65,20 +40,7 @@
             "source": [
                 "let new_data = data.map((text) => (text[0].toUpperCase() + text.slice(1)))\r\nconsole.log(new_data)"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[ 'Ant', 'Bird', 'Cat', 'Dog', 'Egg' ]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -92,39 +54,14 @@
             "source": [
                 "const data = ['ant','bird','cat','dog','egg']"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "javascript",
             "source": [
                 "let map_1 = data.map((a) => (a))\r\nconsole.log(map_1)"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[ 'ant', 'bird', 'cat', 'dog', 'egg' ]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -138,20 +75,7 @@
             "source": [
                 "let map_2 = data.map((a) => (a + 'Extra'))\r\nconsole.log(map_2)"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[ 'antExtra', 'birdExtra', 'catExtra', 'dogExtra', 'eggExtra' ]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -172,20 +96,7 @@
             "source": [
                 "let map_3 = data.map((a,b) => (b))\r\nconsole.log(map_3)"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[ 0, 1, 2, 3, 4 ]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -199,26 +110,7 @@
             "source": [
                 "let map_4 = data.map((a,b,c) => (c))\r\nconsole.log(map_4)"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[",
-                                "  [ 'ant', 'bird', 'cat', 'dog', 'egg' ],",
-                                "  [ 'ant', 'bird', 'cat', 'dog', 'egg' ],",
-                                "  [ 'ant', 'bird', 'cat', 'dog', 'egg' ],",
-                                "  [ 'ant', 'bird', 'cat', 'dog', 'egg' ],",
-                                "  [ 'ant', 'bird', 'cat', 'dog', 'egg' ]",
-                                "]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -239,20 +131,7 @@
             "source": [
                 "function capitalLetter(text){\r\n    return text[0].toUpperCase() + text.slice(1)\r\n}\r\n\r\nconsole.log(\r\n    capitalLetter(\"hello\"),\r\n    capitalLetter(\"i\"),\r\n    capitalLetter(\"okay\")\r\n)"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "Hello I Okay",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -266,20 +145,7 @@
             "source": [
                 "let map_5 = data.map(capitalLetter)\r\nconsole.log(map_5)"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[ 'Ant', 'Bird', 'Cat', 'Dog', 'Egg' ]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -300,19 +166,7 @@
             "source": [
                 "const data = ['ant','bird','cat','dog','egg']"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -326,20 +180,7 @@
             "source": [
                 "console.log(data.map((value,index,array) => (1)))"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[ 1, 1, 1, 1, 1 ]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -353,20 +194,7 @@
             "source": [
                 "console.log(data.map)"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[Function: map]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -380,20 +208,7 @@
             "source": [
                 "console.log(data.map)"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[Function: map]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -407,20 +222,7 @@
             "source": [
                 "console.log(data.map)"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[Function: map]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -434,20 +236,7 @@
             "source": [
                 "console.log(data.map)"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[Function: map]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -461,20 +250,7 @@
             "source": [
                 "console.log(data.map)"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[Function: map]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -488,39 +264,14 @@
             "source": [
                 "const data = ['ant','bird','cat','dog','egg']"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "javascript",
             "source": [
                 "console.log(data.filter(value => true))"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[ 'ant', 'bird', 'cat', 'dog', 'egg' ]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -534,20 +285,7 @@
             "source": [
                 "console.log(data.filter(value => false))"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -561,20 +299,7 @@
             "source": [
                 "console.log(data.filter((value,index) => index % 2 === 0))"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[ 'ant', 'cat', 'egg' ]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -588,60 +313,21 @@
             "source": [
                 "console.log(data.filter((value) => value === 'ant'))"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[ 'ant' ]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "javascript",
             "source": [
                 "console.log(data.filter((value,index) => index === 2))"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[ 'cat' ]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "javascript",
             "source": [
                 "console.log(data.filter((value,index,array) => array.length === 5))"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[ 'ant', 'bird', 'cat', 'dog', 'egg' ]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -662,40 +348,14 @@
             "source": [
                 "console.log(data.filter((value,index) => index >= 2).map(value => value.toUpperCase()))"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[ 'CAT', 'DOG', 'EGG' ]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "javascript",
             "source": [
                 "function isPrime(number){\r\n    if(number === 1){\r\n        return false\r\n    }\r\n    for(var i=2;i<number;i++){\r\n        if(number % i == 0){\r\n            return false\r\n        }\r\n    }\r\n    return true\r\n}\r\n\r\nconsole.log(\r\n    isPrime(1),\r\n    isPrime(2),\r\n    isPrime(4),\r\n    isPrime(7),\r\n    isPrime(9)\r\n)"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "false true false true false",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -709,39 +369,14 @@
             "source": [
                 "const numberArr = [2,3,8,10,15]"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "javascript",
             "source": [
                 "console.log(numberArr.filter(isPrime))"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[ 2, 3 ]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -755,20 +390,7 @@
             "source": [
                 "console.log(numberArr.filter(isPrime).map(value => value + 3))"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[ 5, 6 ]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -782,20 +404,7 @@
             "source": [
                 "console.log(numberArr.map(value => value + 3).filter(isPrime))"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[ 5, 11, 13 ]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -816,26 +425,7 @@
             "source": [
                 "const create1to50Array = () => {\r\n    let result = []\r\n    for(var i=1;i<=50;i++){\r\n        result.push(i)\r\n    }\r\n    return result\r\n}\r\n\r\nconst data = create1to50Array()\r\nconsole.log(data)"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[",
-                                "   1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11,",
-                                "  12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22,",
-                                "  23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33,",
-                                "  34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44,",
-                                "  45, 46, 47, 48, 49, 50",
-                                "]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -849,26 +439,7 @@
             "source": [
                 "console.log(data.filter((value,index,array) => true))"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[",
-                                "   1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11,",
-                                "  12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22,",
-                                "  23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33,",
-                                "  34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44,",
-                                "  45, 46, 47, 48, 49, 50",
-                                "]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -882,20 +453,7 @@
             "source": [
                 "console.log(data.filter)"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[Function: filter]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -909,20 +467,7 @@
             "source": [
                 "console.log(data.filter)"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[Function: filter]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -936,20 +481,7 @@
             "source": [
                 "console.log(data.filter)"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "[Function: filter]",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -970,19 +502,7 @@
             "source": [
                 "const data = [\r\n    { name:\"kana\", age:25, salary:5400 },\r\n    { name:\"gun\", age:32, salary:9300 },\r\n    { name:\"nut\", age:14, salary:2100 },\r\n    { name:\"boome\", age:19, salary:1400 },\r\n    { name:\"fluck\", age:41, salary:3000 },\r\n    { name:\"bass\", age:34, salary:11000 },\r\n    { name:\"balle\", age:29, salary:2100 },\r\n    { name:\"gitar\", age:22, salary:2400 },\r\n    { name:\"belle\", age:51, salary:7200 },\r\n    { name:\"mic\", age:49, salary:2500 },\r\n  ]"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -996,20 +516,7 @@
             "source": [
                 "let result1 = /* ใส้โค้ดตรงนี้ */\r\nconsole.log(result1)"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "undefined",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
@@ -1030,20 +537,7 @@
             "source": [
                 "let result2 = /* ใส้โค้ดตรงนี้ */\r\nconsole.log(result2)"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "undefined",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",

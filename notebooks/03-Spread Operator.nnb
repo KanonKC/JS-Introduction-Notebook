@@ -285,20 +285,7 @@
             "source": [
                 "/* ส่วนนี้น้องต้องเขียนนะครับ */\r\nconsole.log({})"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "{}",
-                                "",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
